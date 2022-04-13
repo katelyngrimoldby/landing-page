@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #F9FAF8;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a.btn {
+  padding: 10px 15px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  text-decoration: none;
+  border-radius: 20px;
+  display: inline-block;
+}
+a.btn:hover {
+  box-shadow: inset 2px 2px 7px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+#hero {
+  background-color: #1F2937;
+  padding: 0 12%;
+}
+#hero .container {
+  display: flex;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  color: #F9FAF8;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .container .content {
+  width: 40%;
+}
+#hero .container p {
+  margin-bottom: 10px;
+  color: #E5E7EB;
+}
+
+#topbar {
+  width: 100%;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+}
+#topbar span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 48px;
+  list-style-type: none;
+  align-self: center;
+}
+ul a {
+  text-decoration: none;
+  color: #F9FAF8;
+  padding: 10px 0;
+  display: inline-block;
+}
+ul a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #F9FAF8;
+}
+
+#services {
+  padding: 2% 12%;
+  padding-bottom: 7%;
+  text-align: center;
+  color: #1F2937;
+}
+#services .container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+#services .card {
+  padding: 20px 10px;
+  width: 15%;
+  text-align: center;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+}
+
+#testimonial {
+  background-color: #E5E7EB;
+  padding: 7% 12%;
+  color: #1F2937;
+}
+#testimonial p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  width: 100%;
+}
+#testimonial span {
+  float: right;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#cta {
+  margin: 5% 12%;
+  background-color: #3882F6;
+  padding: 3% 7%;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+#cta a {
+  border: 3px solid #F9FAF8;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 2% 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

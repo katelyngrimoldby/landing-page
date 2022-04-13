@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+$font: 'Roboto', sans-serif;
+
+$dark: #1F2937;
+$light: #F9FAF8;
+$blue: #3882F6;
+$grey: #E5E7EB;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+    font-size: 18px;
+}
+
+body{
+    background-color: $light;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a.btn{
+    padding: 10px 15px;
+    background-color: $blue;
+    color: $light;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+
+    &:hover{
+        box-shadow: inset 2px 2px 7px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+}
+
+#hero{
+    background-color: $dark;
+    padding: 0 12%;
+    
+
+   .container{
+       display: flex;
+       padding-top: 7%;
+       padding-bottom: 5%;
+       color: $light;
+       justify-content: space-between;
+       align-items: center;
+
+       .content{
+           width: 40%;
+       }
+
+       p{
+            margin-bottom: 10px;
+            color: $grey;
+       }
+   }
+}
+
+#topbar{
+    width: 100%;
+    color: $light;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+
+    span{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+    list-style-type: none;
+    align-self: center;
+
+    a{
+        text-decoration: none;
+        color: $light;
+        padding: 10px 0;
+        display: inline-block;
+    }
+
+    a:hover{
+        text-decoration: none;
+        border-bottom: 2px solid $light;
+
+    }
+}
+
+#services{
+    padding: 2% 12%;
+    padding-bottom: 7%;
+    text-align: center;
+    color: $dark;
+
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+    
+    .card{
+        padding: 20px 10px;
+        width: 15%;
+        text-align: center;
+        border: 5px solid $blue;
+        border-radius: 20px;
+    }
+}
+
+#testimonial{
+    background-color: $grey;
+    padding: 7% 12%;
+    color: $dark;
+
+    p{
+        font-size: 36px;
+        font-weight: 300;
+        font-style: italic;
+        width: 100%;
+    }
+    span{
+        float: right;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+
+#cta{
+    margin: 5% 12%;
+    background-color: $blue;
+    padding: 3% 7%;
+    color: $light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+    a{
+        border: 3px solid $light;
+    }
+}
+
+footer{
+    background-color: $dark;
+    color: $grey;
+    text-align: center;
+    padding: 2% 0;
+}
